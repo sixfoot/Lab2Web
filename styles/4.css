@@ -1,0 +1,28 @@
+.content-wrapper {
+    max-width: 1000px;
+    min-width: 800px;
+    margin: 0 auto;
+    width: 80%;
+}
+.header {
+    max-width: 1000px;
+    min-width: 800px;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+
+}
+
+.menu {
+    max-width: 1000px;
+    min-width: 800px;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #FFC107;
+    height: auto;
+    line-height: 20px;
+    text-align: center;
+    list-style-type: square;
+}

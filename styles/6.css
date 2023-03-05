@@ -1,0 +1,13 @@
+.main-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.main-menu {
+    background-color: #F5F5F5;
+    height: auto;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px;
+}

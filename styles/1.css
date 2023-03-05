@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+
+}
+
+.menu {
+    background-color: #FFC107;
+    height: auto;
+    line-height: 20px;
+    text-align: center;
+    list-style-type: square;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #F5F5F5;
+}
+
+.left-column {
+    background-color: #F5F5F5;
+    width: 20%;
+    min-height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    background-image: url("../img/gridimg.png");
+      background-repeat: repeat;
+    flex: 1;
+    min-height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    background-color: #F5F5F5;
+    width: 20%;
+    min-height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.left-column img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.main-content img {
+    width: 40%;
+    height: auto;
+    margin-top: 10px;
+}
