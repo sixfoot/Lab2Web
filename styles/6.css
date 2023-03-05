@@ -1,3 +1,4 @@
+
 .main-header {
     background-color: #4CAF50;
     color: white;
@@ -7,7 +8,102 @@
 .main-menu {
     background-color: #F5F5F5;
     height: auto;
-    line-height: 20px;
+    line-height: auto;
     text-align: center;
-    padding: 20px;
+    
 }
+
+
+
+.left-nav {
+    background-color:orange;
+    color: white;
+    border: 2px solid red;
+
+    text-align: left;
+}
+
+.left-aside {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid red;
+
+    text-align: left;
+}
+
+.left-section {
+    background-color: #F5F5F5;
+    height: auto;
+    width: 30%;
+    text-align: center;
+    border: 2px solid rgb(11, 133, 76);
+    padding: 1%;
+    float: left;
+}
+
+.right-section {
+    background-color: #F5F5F5;
+    height: auto;
+    float: right;
+    width: 64%;
+    text-align: center;
+    border: 2px solid rgb(133, 11, 52);
+    padding: 1%;
+    
+}
+.div-aside {
+    float: left;
+    width: 49%;
+    border: 2px solid black;
+}
+.aside-aside {
+    float: right;
+    width: 49%;
+    border: 2px solid black;
+}
+
+.p1 {
+    
+    color: white;
+    text-align: center; 
+    border: 2px solid purple;
+}
+
+.right-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.left-article-1 {
+    background-color: #6f4caf;
+    color: white;
+    text-align: center; 
+}
+
+.left-article-2 {
+    background-color: #af4c81;
+    color: white;
+    text-align: center; 
+}
+
+.footer-left {
+    background-color: #4c66af;
+    color: white;
+    text-align: center; 
+}
+
+.bottom-footer {
+    text-align: center;
+    position: bottom;
+    padding: -5px;
+    position: absolute;
+    bottom: 0;
+    float: bottom;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    border: 2px solid rgb(29, 11, 133);
+}
+
+
